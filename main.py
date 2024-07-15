@@ -7,10 +7,10 @@ ROWS, COLS = 8,8
 block_size = breadth//COLS
 
 # rgb
-RED_PIECE = (189,146,104)
-GREY_PIECE = (112,128,144)
-BLACK_BORDER = (0, 0, 0)
-CYAN_MOVE = (153, 204,255)
+RED_PIECE = (220,20,60)
+GREY_PIECE = (0,0,0)
+BLACK_BORDER = (0,0,0)
+CYAN_MOVE = (153,204,255)
 
 crown_image = pygame.transform.scale(pygame.image.load('crown.png'), (40, 20))
 
